@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Hello Kitty</title>
+      <link rel="icon" type="image/png" href="4dc6acb95f0e2a63a5e342661f8a1175.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <!-- Pantalla de contraseña -->
+  <div id="login-screen">
+    <div class="login-box">
+      <h1>🎀 Hello Kitty 🎀</h1>
+      <input type="password" id="password" placeholder="Contraseña">
+      <br>
+      <button onclick="checkPassword()">Entrar</button>
+      <p id="error-message"></p>
+    </div>
+  </div>
+
+  <!-- Contenido principal -->
+  <script>
+    const correctPassword = "hellokitty"; // Cambia la contraseña
+    function checkPassword() {
+      const passwordInput = document.getElementById('password').value;
+      const errorMsg = document.getElementById('error-message');
+      if(passwordInput === correctPassword){
+        document.getElementById('login-screen').style.display = 'none';
+        document.getElementById('main-content').style.display = 'flex';
+      } else {
+        errorMsg.textContent = "Contraseña incorrecta, intenta de nuevo";
+      }
+    }
+  </script>
+
+
+  <!-- Contenido de la página -->
+  <div id="main-content" style="display:none;">
+    
+  </div>
+  <script src="script.js"></script>
+   <header>
+        <h1>🎀 ¡Bienvenido a la página Hello Kitty! 🎀</h1>
+         <p>Disfruta de los videos, imágenes y más 💖</p>
+    <!-- Aquí puedes poner tus videos, imágenes, calendario, etc. -->
+    </header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Hello Kitty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <h2>Videos de Hello kitty</h2>
+ <h3>Temporada 1 </h3>
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/ljlYwAs43jU?si=TLCLQWeW7A5NBH3W" 
+title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+ <div class="videos-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AVQlFGe_9v4?si=hlGptpd3m8bSKpPL" 
+    title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zLJ_v0_wgB8?si=6fBdmSqNMIW0wX2P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>   
+    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EXE_WDe3sOo?si=EfXlGZ6zHjd44zao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YDoP8Bw0wqo?si=RtxjAFlI7sPbcC5J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zFlCocDsRP0?si=QMDhg3u1ZXYJ3zfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>   
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aLiqk-lbznY?si=k4iMZ_ZRhGthzmjS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JUy5fh3Tnss?si=86CzKtBnuOE9fhJJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vifdG3rVE8E?si=pcHvAV1QsRzykm7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qkYtw8tMWos?si=YuGOaEvtRZ53CzxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FM1wXfH6UzM?si=K-5NZxhVW-34L9B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eDDLBcRndLU?si=NNVBhAc8hCefGBDa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YhBly9aiotA?si=fUyzLyOAXT0Xosb9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MZlJG1gTzSc?si=8_eWfc7UTRrY3RSi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aw6y7_4SIqA?si=_HqYKDxTUA4rz2pK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
+    <main>
+        <section class="galeria">
+            <h2>Galería de Imágenes</h2>
+            <div class="imagenes">
+                <img src="c9c5fa03cb97f33f38d22c1269a7c9da.jpg" alt="Hello Kitty 1">
+                <img src="hello-kitty-and-friends-1982-x-2048-wallpaper-95pcskrqu0atdc9c.jpg" alt="Hello Kitty 2">
+                <img src="hello-kitty-y-sus-amigos-t4pjc88x5pyjn2m5 (1).jpg" alt="Hello Kitty 3">
+            </div>
+        </section>
+    </main>
+<!-- Contenido de tu página -->
+  <div class="contenido">
+    <h1>🎀 Bienvenidos a la página de Hello Kitty 🎀</h1>
+    <p>videos de YouTube 💖</p>
+  </div>
+</body>
